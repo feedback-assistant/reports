@@ -24,7 +24,7 @@ Example report: https://github.com/feedback-assistant/reports/issues/1
 
 <!---
 EXAMPLE
-- **Date:** 2019-08-11 (The date should be in exactly this format!)
+- **Date:** 2019-08-14 (The date should be in exactly this format!)
 - **Resolution:** Open
 - **Area:** AppKit
 - **OS:** macOS 10.14.6
