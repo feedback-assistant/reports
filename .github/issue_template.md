@@ -15,7 +15,7 @@ Example report: https://github.com/feedback-assistant/reports/issues/1
 --->
 
 
-- **Date:** 2019-
+- **Date:** 2020-
 - **Resolution:** Open
 - **Area:** 
 - **OS:** 
