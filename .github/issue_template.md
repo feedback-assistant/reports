@@ -15,7 +15,7 @@ Example report: https://github.com/feedback-assistant/reports/issues/1
 --->
 
 
-- **Date:** 2020-
+- **Date:** 2021-
 - **Resolution:** Open
 - **Area:** 
 - **OS:** 
@@ -24,10 +24,10 @@ Example report: https://github.com/feedback-assistant/reports/issues/1
 
 <!---
 EXAMPLE
-- **Date:** 2019-08-14 (The date should be in exactly this format!)
+- **Date:** 2021-02-01 (The date should be in exactly this format!)
 - **Resolution:** Open
 - **Area:** AppKit
-- **OS:** macOS 10.14.6
+- **OS:** macOS 11.2
 - **Type:** Incorrect/Unexpected Behavior
 - **Keywords:** preferences, auto-layout, tabbing (Optional, just to make your report more easily searchable. Don't include words already used in the title or description.)
 --->
