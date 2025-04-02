@@ -1,0 +1,90 @@
+name: Feedback Assistant Report
+description: 'Mirror your Feedback Assistant reports here.'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Feedback Assistant Report Tracking
+
+        Title must be in format `FB123456: Title`. For example: `FB345215: SwiftUI is slow`.
+
+        Note that this repo hosts mirrors of actual Feedback Assistant reports. You have to submit feedback through the Feedback Assistant app first.
+
+  - type: input
+    id: date
+    attributes:
+      label: Submission Date
+      description: The date you submitted this feedback to Apple
+      placeholder: '2025-04-01'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      description: The current resolution status from Apple
+      multiple: false
+      options:
+        - Open
+        - Closed
+        - Duplicate
+        - Won't fix
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: area
+    attributes:
+      label: Area
+      description: Select the primary affected framework or technology
+      placeholder: 'SwiftUI'
+    validations:
+      required: true
+
+  - type: input
+    id: os_version
+    attributes:
+      label: Operating System Version
+      description: The specific OS version where the issue occurs
+      placeholder: 'macOS 15.4'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      multiple: false
+      options:
+        - Incorrect/Unexpected Behavior
+        - Suggestion
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide the full description from your Feedback Assistant report, including any files (exclusing anything sensitive like sysdiagnose)
+    validations:
+      required: true
+
+  - type: input
+    id: keywords
+    attributes:
+      label: Keywords
+      description: Additional search terms to help others find this issue
+      placeholder: 'memory management, navigation, performance'
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: Please verify these requirements before submitting
+      options:
+        - label: 'The title follows the format `FB<number>: <title>`'
+          required: true
+        - label: I will keep this issue updated with Apple's responses
+          required: true
