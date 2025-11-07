@@ -9,7 +9,7 @@ Apple Feedback Assistant reports are not public. To help other developers discov
 
 This is similar to [Open Radar](https://openradar.appspot.com), but it's easier to fill out the report and GitHub has better search. Also, Open Radar doesn't yet support Feedback Assistant.
 
-Instead of voting on issues opened here (which Apple won't see anyway), file a new Feedback Assistant report and copy-paste the contents of the report you found here and link to the original report. Apple encourages duplicates.
+Instead of voting on issues opened here (which Apple won't see anyway), file a new Feedback Assistant report and copy-paste the contents of the report you found here and link to the original report. Apple encourages duplicates. Don't post or comment about the duplicate here.
 
 Feel free to comment on issues with additional context and workarounds.
 
